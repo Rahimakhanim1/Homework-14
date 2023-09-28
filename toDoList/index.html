@@ -14,16 +14,20 @@
                 <h1><span class="pink">TO </span><span class="green">DO </span><span class="yellow">LIST</span></h1>
                 <form>
                     <input id="userInput" type="text" name="works" placeholder="Enter your plans">
-                    <button id="btn" class="btn" >Add</button>
+                    <a id="btn" class="btn" onclick="addItem()">Add</a>
                 </form>
 
                <ul id="to-do-list" class="list">
-                <div class="list-item">
-                    <span><i class="fas fa-check"></i></span>
+                <div class="list-item" >
+                    <span class="span" id="checked">
+                        <i id="ret" class="fas fa-check"></i>
+                    </span>
                     <div class="list-border">
                         <li>Slider Yaratmaq</li>
                     </div>                   
                 </div>
+
+               
 
                  
 
