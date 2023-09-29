@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.slider-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:700px;
+    background-color: rgb(129, 138, 138);
+}
+
+.slider{
+    display: flex;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+.slider-images{
+    width:600px;
+    height:500px;
+}
+.second-arrow{
+    transform:rotateY(180deg)
+}
