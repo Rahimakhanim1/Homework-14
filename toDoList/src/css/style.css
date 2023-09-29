@@ -47,6 +47,7 @@ ul{
     padding:30px 20px;
     
 }
+
 .list-container form input{
     width:60%;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -85,13 +86,11 @@ ul{
 }
 
 .list-container ul .list-item{
-    width:100%;
-    
+    width:100%;  
     height:30px;
     margin:5px;
     display: flex;
-    /* align-items: center; */
-   
+    /* align-items: center; */ 
 }
 .list-container .list-border{
     border-bottom: 3px solid gray;
@@ -99,6 +98,11 @@ ul{
     height: 100%;
     display: flex;
     align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.list-border svg{
+    font-size:30px;
 }
 .list-container .list-border li{
     font-size:25px;
@@ -115,6 +119,9 @@ ul{
 }
 .list-container ul span i{
     font-size: 23px;
+}
+svg {
+    cursor:pointer;
 }
 @media (max-width:920px) {
     form{
