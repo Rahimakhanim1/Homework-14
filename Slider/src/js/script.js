@@ -19,6 +19,7 @@ function next(){
     slider();
 }
 function slider(){
+    
     if(index<0){
         index = imgArr.length-1;
     }else if(index>imgArr.length-1){
@@ -26,6 +27,10 @@ function slider(){
     }
 
     img.src = imgArr[index];
+    let tr = index*400;
+  
+    
+   
 }
 
 

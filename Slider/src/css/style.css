@@ -16,10 +16,12 @@
     display: flex;
     align-items: center;
     background-color: blanchedalmond;
+  
 }
 .slider-images{
-    width:600px;
+    width:800px;
     height:500px;
+   
 }
 .second-arrow{
     transform:rotateY(180deg)

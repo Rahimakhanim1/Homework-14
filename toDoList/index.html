@@ -8,38 +8,25 @@
         <script src="https://kit.fontawesome.com/fdce0ae322.js" crossorigin="anonymous"></script>
     </head>
     <body>
-
-        <div class="main-container">
+      <div class="main-container">
             <div class="list-container">
                 <h1><span class="pink">TO </span><span class="green">DO </span><span class="yellow">LIST</span></h1>
                 <form>
                     <input id="userInput" type="text" name="works" placeholder="Enter your plans">
                     <a id="btn" class="btn" onclick="addItem()">Add</a>
                 </form>
-
                <ul id="to-do-list" class="list">
-                <div class="list-item" >
-                    <span class="span" id="checked">
-                        <i id="ret" class="fas fa-check"></i>
-                    </span>
-                    <div class="list-border">   
-                       
-                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
-                        
-                        <li>Slider Yaratmaq</li>
-                    </div>   
-                  
-                                    
-                </div>
-
-               
-
-                 
-
+                    <div class="list-item" >
+                        <span onclick="check(this)" class="span" id="checked">
+                        </span>
+                        <div class="list-border">   
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>                      
+                            <li>Slider Yaratmaq</li>
+                        </div>                                        
+                    </div>
                </ul>
             </div>
         </div>
-
         <script src="src/js/script.js"></script>
     
     </body>
