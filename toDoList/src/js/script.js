@@ -32,6 +32,7 @@ function check(span){
             }
 };
 function remove(item){
-    toDoList.removeChild(item.parentNode.parentNode)
+    toDoList.removeChild(item.parentNode.parentNode);
+    listIndex--;
    
 }
